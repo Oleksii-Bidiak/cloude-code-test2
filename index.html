@@ -887,5 +887,49 @@
         </div>
     </footer>
 
+    <!-- Cookie Consent Modal -->
+    <div
+        x-data="{ showCookie: true }"
+        x-show="showCookie"
+        x-transition:enter="transition ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4"
+        x-transition:enter-end="opacity-100 translate-y-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0"
+        x-transition:leave-end="opacity-0 translate-y-4"
+        class="fixed bottom-4 right-4 z-50 max-w-md"
+    >
+        <aside class="bg-white rounded-2xl shadow-xl p-6 border border-secondary">
+            <div class="flex items-start gap-4">
+                <div class="flex-shrink-0">
+                    <svg class="w-10 h-10 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg font-medium text-content mb-2">Використання cookie</h3>
+                    <p class="text-content opacity-70 text-sm leading-relaxed mb-4">
+                        Цей сайт використовує файли cookie для покращення вашого досвіду. Продовжуючи користуватися сайтом, ви погоджуєтесь з нашою
+                        <a href="cookies.html" class="text-primary hover:text-accent underline">політикою cookie</a>.
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <button
+                            @click="showCookie = false"
+                            class="bg-primary hover:bg-accent text-white transition-colors px-5 py-2 text-sm rounded-lg"
+                        >
+                            Прийняти
+                        </button>
+                        <button
+                            @click="showCookie = false"
+                            class="border border-content text-content hover:bg-neutral transition-colors px-5 py-2 text-sm rounded-lg"
+                        >
+                            Відхилити
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
 </body>
 </html>
