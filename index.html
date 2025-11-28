@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="VitalHaven Works - Сервіс планування харчування для активного довголіття">
+    <meta name="description" content="VitalHaven Works допомагає людям віком 55-75 років планувати збалансоване харчування для підтримки здоров'я та повноцінного життя. Індивідуальні плани, консультації спеціалістів, прогрес-трекінг.">
+    <meta name="keywords" content="планування харчування, здорове харчування, активне довголіття, збалансоване харчування, харчування для старших, раціон харчування, здоровий спосіб життя, Україна">
+    <title>VitalHaven Works - Сервіс планування харчування для активного довголіття</title>
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#9575CD',
+                        secondary: '#D1C4E9',
+                        accent: '#4DB6AC',
+                        neutral: '#F8F5F0',
+                        content: '#424242'
+                    },
+                    fontFamily: {
+                        sans: ['system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        a {
+            display: inline-block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="bg-neutral text-content font-sans antialiased">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+                <!-- Logo -->
+                <a href="index.html" class="text-2xl lg:text-3xl font-light text-primary hover:text-accent transition-colors">
+                    VitalHaven Works
+                </a>
+
+                <!-- Navigation Links -->
+                <div class="flex flex-wrap items-center gap-4 lg:gap-8">
+                    <a href="#about" class="text-lg text-content hover:text-primary transition-colors py-2">
+                        Про нас
+                    </a>
+                    <a href="#pricing" class="text-lg text-content hover:text-primary transition-colors py-2">
+                        Тарифи
+                    </a>
+                    <a href="#contact" class="text-lg text-content hover:text-primary transition-colors py-2">
+                        Контакти
+                    </a>
+                    <a href="#contact" class="border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors px-6 py-3 text-lg rounded-lg">
+                        Реєстрація
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center justify-center bg-white">
+            <div class="max-w-4xl mx-auto px-4 py-20 text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-light text-content leading-tight mb-8">
+                    Здорове харчування —
+                    <span class="text-primary">основа активного довголіття</span>
+                </h1>
+
+                <p class="text-xl md:text-2xl text-content leading-relaxed mb-12 max-w-3xl mx-auto">
+                    VitalHaven Works — це персоналізований сервіс планування харчування, створений спеціально для людей, які цінують своє здоров'я та прагнуть жити повноцінним життям. Ми допомагаємо вам скласти збалансований раціон, враховуючи ваші індивідуальні потреби, вподобання та рекомендації фахівців.
+                </p>
+
+                <p class="text-lg md:text-xl text-content leading-relaxed mb-16 max-w-2xl mx-auto opacity-80">
+                    Приєднуйтесь до тисяч користувачів, які вже обрали шлях до кращого самопочуття через правильне харчування. Наші експерти розроблять для вас індивідуальний план, який легко впровадити у повсякденне життя.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="#pricing" class="border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors px-10 py-4 text-xl rounded-lg">
+                        Обрати тариф
+                    </a>
+                    <a href="#about" class="border-2 border-accent text-accent hover:bg-accent hover:text-white transition-colors px-10 py-4 text-xl rounded-lg">
+                        Дізнатися більше
+                    </a>
+                </div>
+
+                <div class="mt-20 pt-12 border-t border-secondary">
+                    <p class="text-lg text-content opacity-70 mb-6">Нам довіряють</p>
+                    <div class="flex flex-wrap justify-center gap-8 items-center">
+                        <div class="text-center">
+                            <p class="text-4xl font-light text-primary">5000+</p>
+                            <p class="text-content opacity-80">користувачів</p>
+                        </div>
+                        <div class="w-px h-12 bg-secondary hidden md:block"></div>
+                        <div class="text-center">
+                            <p class="text-4xl font-light text-primary">98%</p>
+                            <p class="text-content opacity-80">задоволених</p>
+                        </div>
+                        <div class="w-px h-12 bg-secondary hidden md:block"></div>
+                        <div class="text-center">
+                            <p class="text-4xl font-light text-primary">50+</p>
+                            <p class="text-content opacity-80">експертів</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-content text-white">
+        <div class="max-w-6xl mx-auto px-4 py-12">
+            <!-- Main Footer Content -->
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Brand -->
+                <div>
+                    <a href="index.html" class="text-2xl font-light text-secondary hover:text-white transition-colors mb-4">
+                        VitalHaven Works
+                    </a>
+                    <p class="text-neutral opacity-80 mt-4 leading-relaxed text-left">
+                        Сервіс планування харчування для людей, які обирають активне довголіття та піклуються про своє здоров'я кожного дня.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-light text-white mb-4">Навігація</h3>
+                    <div class="flex flex-col gap-3">
+                        <a href="index.html" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Головна сторінка
+                        </a>
+                        <a href="#about" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Про нас
+                        </a>
+                        <a href="#pricing" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Тарифи
+                        </a>
+                        <a href="#contact" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Контакти
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Legal Links -->
+                <div>
+                    <h3 class="text-xl font-light text-white mb-4">Правова інформація</h3>
+                    <div class="flex flex-col gap-3">
+                        <a href="policy.html" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Політика конфіденційності
+                        </a>
+                        <a href="terms.html" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Умови використання
+                        </a>
+                        <a href="cookies.html" class="text-neutral opacity-80 hover:text-white hover:opacity-100 transition-colors text-left">
+                            Політика cookie
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Disclaimer -->
+            <div class="border-t border-white border-opacity-20 pt-8 mb-8">
+                <h4 class="text-lg font-light text-white mb-4">Відмова від відповідальності</h4>
+                <p class="text-neutral opacity-70 text-sm leading-relaxed text-left">
+                    Інформація, представлена на цьому веб-сайті, має виключно інформаційний та освітній характер. Вона не є медичною консультацією, діагнозом або рекомендацією щодо лікування. Перш ніж вносити будь-які зміни до свого раціону харчування, способу життя або режиму фізичної активності, обов'язково проконсультуйтеся з кваліфікованим медичним фахівцем, лікарем або дієтологом. Власники та оператори цього веб-сайту не несуть відповідальності за будь-які рішення, прийняті на основі інформації, розміщеної на сайті, а також за будь-які можливі наслідки для здоров'я, що можуть виникнути внаслідок використання цих матеріалів. Результати використання сервісу можуть відрізнятися для кожної особи залежно від індивідуальних особливостей організму, стану здоров'я та інших факторів. Минулі результати користувачів не гарантують аналогічних результатів у майбутньому.
+                </p>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-white border-opacity-20 pt-8 text-center">
+                <p class="text-neutral opacity-70">
+                    © 2025. Всі права захищені. VitalHaven Works
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
