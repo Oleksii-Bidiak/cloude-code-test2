@@ -418,6 +418,108 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="py-20 bg-neutral">
+            <div class="max-w-2xl mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-light text-content mb-6">
+                        Зв'яжіться з нами
+                    </h2>
+                    <p class="text-xl text-content opacity-80 leading-relaxed">
+                        Готові розпочати шлях до здорового харчування? Залиште свої контактні дані, і наш спеціаліст зв'яжеться з вами для безкоштовної консультації. Ми відповімо протягом одного робочого дня.
+                    </p>
+                </div>
+
+                <form action="success.php" method="post" class="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
+                    <div class="space-y-6">
+                        <!-- Name Field -->
+                        <div>
+                            <label for="name" class="block text-lg text-content mb-2">
+                                Ваше ім'я
+                            </label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Введіть ваше ім'я"
+                                class="w-full px-4 py-4 text-lg border-2 border-secondary rounded-lg focus:border-primary focus:outline-none transition-colors bg-neutral"
+                            >
+                        </div>
+
+                        <!-- Email Field -->
+                        <div>
+                            <label for="email" class="block text-lg text-content mb-2">
+                                Електронна пошта
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                placeholder="example@email.com"
+                                class="w-full px-4 py-4 text-lg border-2 border-secondary rounded-lg focus:border-primary focus:outline-none transition-colors bg-neutral"
+                            >
+                        </div>
+
+                        <!-- Message Field -->
+                        <div>
+                            <label for="message" class="block text-lg text-content mb-2">
+                                Ваше повідомлення
+                            </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Розкажіть про ваші цілі та побажання щодо харчування..."
+                                class="w-full px-4 py-4 text-lg border-2 border-secondary rounded-lg focus:border-primary focus:outline-none transition-colors bg-neutral resize-none"
+                            ></textarea>
+                        </div>
+
+                        <!-- Age Group Selection -->
+                        <div>
+                            <label for="age_group" class="block text-lg text-content mb-2">
+                                Ваша вікова група
+                            </label>
+                            <select
+                                id="age_group"
+                                name="age_group"
+                                class="w-full px-4 py-4 text-lg border-2 border-secondary rounded-lg focus:border-primary focus:outline-none transition-colors bg-neutral"
+                            >
+                                <option value="">Оберіть вікову групу</option>
+                                <option value="50-60">50-60 років</option>
+                                <option value="60-70">60-70 років</option>
+                                <option value="70+">70+ років</option>
+                            </select>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button
+                            type="submit"
+                            class="w-full bg-primary hover:bg-accent text-white transition-colors px-8 py-4 text-xl rounded-lg mt-4"
+                        >
+                            Надіслати заявку
+                        </button>
+                    </div>
+
+                    <p class="text-center text-content opacity-60 mt-6 text-sm">
+                        Натискаючи кнопку, ви погоджуєтесь з нашою
+                        <a href="policy.html" class="text-primary hover:text-accent underline">політикою конфіденційності</a>
+                    </p>
+                </form>
+
+                <!-- Additional Contact Info -->
+                <div class="mt-12 text-center">
+                    <p class="text-lg text-content opacity-80 mb-4">
+                        Маєте запитання? Ми завжди раді допомогти!
+                    </p>
+                    <p class="text-content opacity-70">
+                        Наша команда підтримки працює щодня, щоб забезпечити вам найкращий досвід використання сервісу VitalHaven Works.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
