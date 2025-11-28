@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="PureGuide House - Йога для старших людей | Мудрість руху">
+    <meta name="description" content="PureGuide House - професійний центр йоги для людей 50-70 років. Поєднання фізичного та ментального здоров'я через вправи низької інтенсивності, медитацію та дихальні практики.">
+    <meta name="keywords" content="йога для старших, йога 50+, медитація, дихальні практики, здоров'я, wellness, Україна">
+    <title>PureGuide House - Йога для старших людей | Мудрість руху</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#FF9800',
+                        secondary: '#FFCC80',
+                        accent: '#5C6BC0',
+                        neutral: '#FFF9E6',
+                        textMain: '#33691E'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        a { display: inline-block; text-align: center; }
+    </style>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-neutral text-textMain font-sans text-lg leading-relaxed">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+                <a href="index.html" class="text-2xl font-bold text-primary hover:text-accent transition-colors">
+                    PureGuide House
+                </a>
+                <div class="flex flex-wrap items-center gap-4 md:gap-6">
+                    <a href="#about" class="text-textMain hover:text-primary transition-colors font-medium py-2 px-3">Про нас</a>
+                    <a href="#pricing" class="text-textMain hover:text-primary transition-colors font-medium py-2 px-3">Тарифи</a>
+                    <a href="#contact" class="text-textMain hover:text-primary transition-colors font-medium py-2 px-3">Контакти</a>
+                    <a href="#contact" class="bg-primary text-white px-6 py-3 rounded-lg hover:bg-accent transition-colors font-semibold">
+                        Реєстрація
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 bg-black/50 z-10"></div>
+            <img src="images/01.png" alt="Йога на природі для здоров'я та гармонії" class="absolute inset-0 w-full h-full object-cover">
+            <div class="relative z-20 text-center text-white px-4 max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                    Мудрість руху починається тут
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 leading-relaxed">
+                    PureGuide House - ваш провідник у світ гармонії тіла та розуму.
+                    Спеціалізовані програми йоги для людей 50-70 років,
+                    що поєднують м'які вправи, медитацію та дихальні практики.
+                </p>
+                <a href="#contact" class="inline-block bg-primary text-white px-10 py-4 rounded-lg text-xl font-semibold hover:bg-accent transition-colors">
+                    Розпочати подорож
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section - Team of Experts -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Команда експертів</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Наші інструктори мають багаторічний досвід роботи зі старшою аудиторією.
+                        Кожен з них пройшов спеціальну підготовку та має сертифікацію для проведення занять
+                        з урахуванням особливостей організму людей зрілого віку.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Team Member 1 -->
+                    <article class="bg-neutral rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-32 h-32 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center">
+                            <svg class="w-16 h-16 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-textMain mb-2">Олена Петренко</h3>
+                        <p class="text-primary font-semibold mb-4">Головний інструктор йоги</p>
+                        <p class="text-textMain/80 mb-4">
+                            <strong>Досвід:</strong> 18 років практики йоги, 12 років викладання
+                        </p>
+                        <p class="text-textMain/80">
+                            <strong>Спеціалізація:</strong> Хатха-йога, терапевтична йога, медитативні практики для покращення концентрації та емоційного балансу.
+                        </p>
+                    </article>
+                    <!-- Team Member 2 -->
+                    <article class="bg-neutral rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-32 h-32 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center">
+                            <svg class="w-16 h-16 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-textMain mb-2">Михайло Коваленко</h3>
+                        <p class="text-primary font-semibold mb-4">Інструктор з дихальних практик</p>
+                        <p class="text-textMain/80 mb-4">
+                            <strong>Досвід:</strong> 15 років вивчення пранаями, 10 років викладання
+                        </p>
+                        <p class="text-textMain/80">
+                            <strong>Спеціалізація:</strong> Дихальні техніки, пранаяма, методики релаксації та зняття напруги для покращення загального самопочуття.
+                        </p>
+                    </article>
+                    <!-- Team Member 3 -->
+                    <article class="bg-neutral rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-32 h-32 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center">
+                            <svg class="w-16 h-16 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-textMain mb-2">Наталія Бондаренко</h3>
+                        <p class="text-primary font-semibold mb-4">Спеціаліст з медитації</p>
+                        <p class="text-textMain/80 mb-4">
+                            <strong>Досвід:</strong> 20 років медитативної практики, 14 років викладання
+                        </p>
+                        <p class="text-textMain/80">
+                            <strong>Спеціалізація:</strong> Медитація усвідомленості, техніки візуалізації, практики для покращення сну та емоційної стабільності.
+                        </p>
+                    </article>
+                </div>
+                <div class="mt-16 bg-secondary/30 rounded-xl p-8">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-bold text-textMain mb-4">Наш підхід до навчання</h3>
+                            <p class="text-textMain/80 leading-relaxed">
+                                Ми віримо, що кожна людина заслуговує на індивідуальний підхід. Наші заняття проводяться у невеликих групах,
+                                що дозволяє інструкторам приділяти увагу кожному учаснику. Ми використовуємо адаптивні методики,
+                                які враховують фізичні особливості та потреби старшої аудиторії. Перед початком занять кожен учасник
+                                проходить консультацію, де ми визначаємо оптимальну програму саме для нього. Рекомендуємо попередньо
+                                проконсультуватися з вашим лікарем перед початком будь-якої фізичної активності.
+                            </p>
+                        </div>
+                        <figure class="rounded-xl overflow-hidden shadow-lg">
+                            <img src="images/02.png" alt="Заняття йогою у групі для старших людей" class="w-full h-64 object-cover">
+                            <figcaption class="bg-white p-4 text-center text-textMain/70">Групове заняття йогою</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section - By Age Groups -->
+        <section id="pricing" class="py-20 bg-neutral">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Тарифні плани за віковими групами</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Ми розробили спеціальні програми для кожної вікової групи з урахуванням
+                        особливостей організму та потреб. Оберіть план, який найкраще відповідає вашим потребам.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Age 50-60 -->
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <div class="bg-primary p-6 text-center">
+                            <h3 class="text-2xl font-bold text-white mb-2">Активний вік</h3>
+                            <p class="text-white/90">50-60 років</p>
+                        </div>
+                        <div class="p-8">
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold text-textMain">1200</span>
+                                <span class="text-xl text-textMain/80"> грн/місяць</span>
+                            </div>
+                            <ul class="space-y-4 mb-8">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>8 групових занять на місяць</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Динамічна хатха-йога</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Інтенсивні дихальні практики</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Доступ до онлайн-матеріалів</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Вступна консультація</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="block w-full bg-primary text-white text-center py-4 rounded-lg font-semibold hover:bg-accent transition-colors">
+                                Обрати план
+                            </a>
+                        </div>
+                    </article>
+                    <!-- Age 60-70 -->
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden border-4 border-primary">
+                        <div class="bg-accent p-6 text-center">
+                            <span class="inline-block bg-white text-accent px-4 py-1 rounded-full text-sm font-semibold mb-2">Найпопулярніший</span>
+                            <h3 class="text-2xl font-bold text-white mb-2">Золота пора</h3>
+                            <p class="text-white/90">60-70 років</p>
+                        </div>
+                        <div class="p-8">
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold text-textMain">1500</span>
+                                <span class="text-xl text-textMain/80"> грн/місяць</span>
+                            </div>
+                            <ul class="space-y-4 mb-8">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>12 групових занять на місяць</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>М'яка терапевтична йога</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Медитація та релаксація</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>2 індивідуальні консультації</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Повний доступ до онлайн-бібліотеки</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Щотижневий план активності</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="block w-full bg-accent text-white text-center py-4 rounded-lg font-semibold hover:bg-primary transition-colors">
+                                Обрати план
+                            </a>
+                        </div>
+                    </article>
+                    <!-- Age 70+ -->
+                    <article class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <div class="bg-secondary p-6 text-center">
+                            <h3 class="text-2xl font-bold text-textMain mb-2">Мудрість життя</h3>
+                            <p class="text-textMain/80">70+ років</p>
+                        </div>
+                        <div class="p-8">
+                            <div class="text-center mb-6">
+                                <span class="text-4xl font-bold text-textMain">1800</span>
+                                <span class="text-xl text-textMain/80"> грн/місяць</span>
+                            </div>
+                            <ul class="space-y-4 mb-8">
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Необмежені групові заняття</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Йога на стільці</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Індивідуальний супровід</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>4 індивідуальні заняття</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <svg class="w-6 h-6 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                    </svg>
+                                    <span>Персональний план розвитку</span>
+                                </li>
+                            </ul>
+                            <a href="#contact" class="block w-full bg-primary text-white text-center py-4 rounded-lg font-semibold hover:bg-accent transition-colors">
+                                Обрати план
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Зв'яжіться з нами</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Залиште свої контактні дані, і наш консультант зв'яжеться з вами для підбору
+                        оптимальної програми занять. Ми відповімо на всі ваші запитання.
+                    </p>
+                </div>
+                <div class="max-w-2xl mx-auto bg-neutral rounded-xl p-8 shadow-lg">
+                    <form action="success.php" method="post" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-textMain font-semibold mb-2">Ваше ім'я</label>
+                            <div class="relative">
+                                <span class="absolute left-4 top-1/2 -translate-y-1/2">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </span>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full pl-14 pr-4 py-4 rounded-lg border-2 border-secondary focus:border-primary focus:outline-none text-lg"
+                                    placeholder="Введіть ваше ім'я">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-textMain font-semibold mb-2">Електронна пошта</label>
+                            <div class="relative">
+                                <span class="absolute left-4 top-1/2 -translate-y-1/2">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                                    </svg>
+                                </span>
+                                <input type="email" id="email" name="email" required
+                                    class="w-full pl-14 pr-4 py-4 rounded-lg border-2 border-secondary focus:border-primary focus:outline-none text-lg"
+                                    placeholder="email@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="age" class="block text-textMain font-semibold mb-2">Вікова група</label>
+                            <div class="relative">
+                                <span class="absolute left-4 top-1/2 -translate-y-1/2">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM9 10H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2z"/>
+                                    </svg>
+                                </span>
+                                <select id="age" name="age" required
+                                    class="w-full pl-14 pr-4 py-4 rounded-lg border-2 border-secondary focus:border-primary focus:outline-none text-lg appearance-none bg-white">
+                                    <option value="">Оберіть вікову групу</option>
+                                    <option value="50-60">50-60 років</option>
+                                    <option value="60-70">60-70 років</option>
+                                    <option value="70+">70+ років</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="topic" class="block text-textMain font-semibold mb-2">Тема звернення</label>
+                            <div class="relative">
+                                <span class="absolute left-4 top-1/2 -translate-y-1/2">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"/>
+                                    </svg>
+                                </span>
+                                <select id="topic" name="topic" required
+                                    class="w-full pl-14 pr-4 py-4 rounded-lg border-2 border-secondary focus:border-primary focus:outline-none text-lg appearance-none bg-white">
+                                    <option value="">Оберіть тему</option>
+                                    <option value="consultation">Консультація щодо програми</option>
+                                    <option value="trial">Пробне заняття</option>
+                                    <option value="pricing">Питання щодо тарифів</option>
+                                    <option value="schedule">Розклад занять</option>
+                                    <option value="other">Інше</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-textMain font-semibold mb-2">Повідомлення</label>
+                            <div class="relative">
+                                <span class="absolute left-4 top-4">
+                                    <svg class="w-6 h-6 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/>
+                                    </svg>
+                                </span>
+                                <textarea id="message" name="message" rows="4"
+                                    class="w-full pl-14 pr-4 py-4 rounded-lg border-2 border-secondary focus:border-primary focus:outline-none text-lg resize-none"
+                                    placeholder="Ваше повідомлення або запитання..."></textarea>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-primary text-white py-4 rounded-lg text-xl font-semibold hover:bg-accent transition-colors">
+                            Надіслати заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loyalty Program Section -->
+        <section id="loyalty" class="py-20 bg-neutral">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Програма лояльності</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Ми цінуємо ваше довір'я та постійність. Наша програма лояльності дозволяє
+                        отримувати додаткові переваги та знижки за регулярне відвідування занять.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Level 1 -->
+                    <article class="bg-white rounded-xl p-8 shadow-lg text-center">
+                        <div class="w-20 h-20 mx-auto mb-6 bg-secondary rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-textMain mb-2">Початківець</h3>
+                        <p class="text-primary font-semibold mb-4">1-3 місяці занять</p>
+                        <ul class="text-left space-y-3 text-textMain/80">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Базові бонуси за кожне відвідування</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Доступ до базових матеріалів</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-primary flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Вітальний подарунок</span>
+                            </li>
+                        </ul>
+                    </article>
+                    <!-- Level 2 -->
+                    <article class="bg-white rounded-xl p-8 shadow-lg text-center border-4 border-primary">
+                        <div class="w-20 h-20 mx-auto mb-6 bg-primary rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-textMain mb-2">Досвідчений</h3>
+                        <p class="text-primary font-semibold mb-4">4-12 місяців занять</p>
+                        <ul class="text-left space-y-3 text-textMain/80">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>5% знижка на всі програми</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Пріоритетний запис на заняття</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Безкоштовна консультація</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Подвійні бонуси</span>
+                            </li>
+                        </ul>
+                    </article>
+                    <!-- Level 3 -->
+                    <article class="bg-white rounded-xl p-8 shadow-lg text-center">
+                        <div class="w-20 h-20 mx-auto mb-6 bg-accent rounded-full flex items-center justify-center">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1v-1h14v1z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-textMain mb-2">Експерт</h3>
+                        <p class="text-accent font-semibold mb-4">Більше 1 року занять</p>
+                        <ul class="text-left space-y-3 text-textMain/80">
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>10% знижка на всі програми</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Ексклюзивні майстер-класи</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>Персональний менеджер</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <svg class="w-5 h-5 text-accent flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+                                </svg>
+                                <span>VIP-статус та особливі привілеї</span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section - Motivational -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Ваш шлях до гармонії</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Кожен крок на шляху до здоров'я важливий. Ми підтримаємо вас на кожному етапі
+                        вашої подорожі до кращого самопочуття та внутрішньої гармонії.
+                    </p>
+                </div>
+                <div class="max-w-4xl mx-auto">
+                    <!-- Step 1 -->
+                    <div class="flex gap-6 mb-12">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold">1</div>
+                            <div class="w-1 flex-1 bg-secondary mt-4"></div>
+                        </div>
+                        <div class="flex-1 pb-8">
+                            <h3 class="text-2xl font-bold text-textMain mb-2">Перші кроки</h3>
+                            <p class="text-textMain/80 mb-4">
+                                Знайомство з практикою йоги та дихальними вправами. На цьому етапі ви вивчите
+                                базові позиції та навчитесь слухати своє тіло.
+                            </p>
+                            <blockquote class="border-l-4 border-primary pl-4 italic text-accent">
+                                "Подорож у тисячу миль починається з одного кроку." — Лао-цзи
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="flex gap-6 mb-12">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold">2</div>
+                            <div class="w-1 flex-1 bg-secondary mt-4"></div>
+                        </div>
+                        <div class="flex-1 pb-8">
+                            <h3 class="text-2xl font-bold text-textMain mb-2">Формування звички</h3>
+                            <p class="text-textMain/80 mb-4">
+                                Регулярні заняття стають частиною вашого життя. Ви помітите перші позитивні
+                                зміни у самопочутті та настрої.
+                            </p>
+                            <blockquote class="border-l-4 border-primary pl-4 italic text-accent">
+                                "Ми є тим, що ми робимо постійно. Досконалість — це не дія, а звичка." — Аристотель
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="flex gap-6 mb-12">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold">3</div>
+                            <div class="w-1 flex-1 bg-secondary mt-4"></div>
+                        </div>
+                        <div class="flex-1 pb-8">
+                            <h3 class="text-2xl font-bold text-textMain mb-2">Поглиблення практики</h3>
+                            <p class="text-textMain/80 mb-4">
+                                Освоєння більш складних технік та медитативних практик. Ваше тіло стає
+                                гнучкішим, а розум — спокійнішим.
+                            </p>
+                            <blockquote class="border-l-4 border-primary pl-4 italic text-accent">
+                                "Йога — це світло, яке, засвітившись один раз, ніколи не згасне." — Б.К.С. Айєнгар
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="flex gap-6 mb-12">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center text-white text-2xl font-bold">4</div>
+                            <div class="w-1 flex-1 bg-secondary mt-4"></div>
+                        </div>
+                        <div class="flex-1 pb-8">
+                            <h3 class="text-2xl font-bold text-textMain mb-2">Внутрішня трансформація</h3>
+                            <p class="text-textMain/80 mb-4">
+                                Йога стає не просто вправами, а способом життя. Ви відчуваєте гармонію
+                                між тілом та розумом у повсякденному житті.
+                            </p>
+                            <blockquote class="border-l-4 border-primary pl-4 italic text-accent">
+                                "Зміни відбуваються не завдяки силі, а завдяки усвідомленості." — Моше Фельденкрайз
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Step 5 -->
+                    <div class="flex gap-6">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center text-white text-2xl font-bold">5</div>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-2xl font-bold text-textMain mb-2">Мудрість практики</h3>
+                            <p class="text-textMain/80 mb-4">
+                                Ви досягаєте глибокого розуміння своїх практик та можете надихати інших
+                                своїм прикладом. Це шлях постійного вдосконалення.
+                            </p>
+                            <blockquote class="border-l-4 border-accent pl-4 italic text-accent">
+                                "Справжня мудрість приходить з досвідом і практикою." — Народна мудрість
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section with Numbers -->
+        <section class="py-20 bg-neutral">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Наші досягнення</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        За роки роботи ми допомогли сотням людей покращити якість життя та знайти
+                        шлях до здоров'я через практику йоги та медитації.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <article class="bg-white rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-primary rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                            </svg>
+                        </div>
+                        <p class="text-5xl font-bold text-primary mb-2">500+</p>
+                        <p class="text-xl text-textMain font-semibold">Задоволених клієнтів</p>
+                        <p class="text-textMain/70 mt-2">які довірили нам своє здоров'я</p>
+                    </article>
+                    <article class="bg-white rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-accent rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                            </svg>
+                        </div>
+                        <p class="text-5xl font-bold text-accent mb-2">15</p>
+                        <p class="text-xl text-textMain font-semibold">Років досвіду</p>
+                        <p class="text-textMain/70 mt-2">у сфері йоги та wellness</p>
+                    </article>
+                    <article class="bg-white rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-primary rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                            </svg>
+                        </div>
+                        <p class="text-5xl font-bold text-primary mb-2">98%</p>
+                        <p class="text-xl text-textMain font-semibold">Позитивних відгуків</p>
+                        <p class="text-textMain/70 mt-2">від наших учасників</p>
+                    </article>
+                    <article class="bg-white rounded-xl p-8 text-center shadow-lg">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-accent rounded-full flex items-center justify-center">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                            </svg>
+                        </div>
+                        <p class="text-5xl font-bold text-accent mb-2">20+</p>
+                        <p class="text-xl text-textMain font-semibold">Програм занять</p>
+                        <p class="text-textMain/70 mt-2">для різних рівнів підготовки</p>
+                    </article>
+                </div>
+                <!-- Testimonials -->
+                <div class="mt-16">
+                    <h3 class="text-2xl font-bold text-textMain mb-8 text-center">Відгуки наших учасників</h3>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <article class="bg-white rounded-xl p-6 shadow-lg">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="w-14 h-14 bg-secondary rounded-full flex items-center justify-center">
+                                    <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-textMain">Галина, 62 роки</p>
+                                    <p class="text-primary">★★★★★</p>
+                                </div>
+                            </div>
+                            <p class="text-textMain/80">
+                                "Після трьох місяців занять відчуваю себе набагато краще. Вдячна інструкторам за
+                                терпіння та індивідуальний підхід. Рекомендую всім!"
+                            </p>
+                        </article>
+                        <article class="bg-white rounded-xl p-6 shadow-lg">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="w-14 h-14 bg-secondary rounded-full flex items-center justify-center">
+                                    <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-textMain">Володимир, 58 років</p>
+                                    <p class="text-primary">★★★★★</p>
+                                </div>
+                            </div>
+                            <p class="text-textMain/80">
+                                "Спочатку сумнівався, чи підійде йога мені. Але заняття перевершили очікування.
+                                Покращився сон, з'явилось більше енергії."
+                            </p>
+                        </article>
+                        <article class="bg-white rounded-xl p-6 shadow-lg">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="w-14 h-14 bg-secondary rounded-full flex items-center justify-center">
+                                    <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-textMain">Ірина, 67 років</p>
+                                    <p class="text-primary">★★★★★</p>
+                                </div>
+                            </div>
+                            <p class="text-textMain/80">
+                                "Прекрасна атмосфера та професійні інструктори. Йога на стільці — саме те, що мені
+                                потрібно. Дякую за турботу!"
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section - Mobile Optimized -->
+        <section class="py-20 bg-white" x-data="calculator()">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Калькулятор вартості</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Розрахуйте орієнтовну вартість занять на основі ваших потреб.
+                        Оберіть параметри та отримайте персональну пропозицію.
+                    </p>
+                </div>
+                <div class="max-w-xl mx-auto bg-neutral rounded-xl p-8 shadow-lg">
+                    <div class="space-y-8">
+                        <!-- Age Group Selection -->
+                        <div>
+                            <label class="block text-textMain font-semibold mb-4 text-xl">Вікова група</label>
+                            <div class="grid grid-cols-1 gap-4">
+                                <button @click="ageGroup = '50-60'"
+                                    :class="ageGroup === '50-60' ? 'bg-primary text-white' : 'bg-white text-textMain border-2 border-secondary'"
+                                    class="py-4 px-6 rounded-lg text-lg font-medium transition-colors">
+                                    50-60 років
+                                </button>
+                                <button @click="ageGroup = '60-70'"
+                                    :class="ageGroup === '60-70' ? 'bg-primary text-white' : 'bg-white text-textMain border-2 border-secondary'"
+                                    class="py-4 px-6 rounded-lg text-lg font-medium transition-colors">
+                                    60-70 років
+                                </button>
+                                <button @click="ageGroup = '70+'"
+                                    :class="ageGroup === '70+' ? 'bg-primary text-white' : 'bg-white text-textMain border-2 border-secondary'"
+                                    class="py-4 px-6 rounded-lg text-lg font-medium transition-colors">
+                                    70+ років
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Sessions per Month -->
+                        <div>
+                            <label class="block text-textMain font-semibold mb-4 text-xl">Кількість занять на місяць</label>
+                            <div class="flex items-center justify-center gap-6">
+                                <button @click="sessions = Math.max(4, sessions - 4)"
+                                    class="w-16 h-16 bg-primary text-white rounded-full text-3xl font-bold hover:bg-accent transition-colors">
+                                    -
+                                </button>
+                                <span class="text-4xl font-bold text-textMain w-20 text-center" x-text="sessions"></span>
+                                <button @click="sessions = Math.min(20, sessions + 4)"
+                                    class="w-16 h-16 bg-primary text-white rounded-full text-3xl font-bold hover:bg-accent transition-colors">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Individual Sessions -->
+                        <div>
+                            <label class="block text-textMain font-semibold mb-4 text-xl">Індивідуальні заняття</label>
+                            <div class="flex items-center justify-center gap-6">
+                                <button @click="individual = Math.max(0, individual - 1)"
+                                    class="w-16 h-16 bg-accent text-white rounded-full text-3xl font-bold hover:bg-primary transition-colors">
+                                    -
+                                </button>
+                                <span class="text-4xl font-bold text-textMain w-20 text-center" x-text="individual"></span>
+                                <button @click="individual = Math.min(8, individual + 1)"
+                                    class="w-16 h-16 bg-accent text-white rounded-full text-3xl font-bold hover:bg-primary transition-colors">
+                                    +
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Result -->
+                        <div class="bg-white rounded-xl p-6 text-center">
+                            <p class="text-textMain/80 mb-2">Орієнтовна вартість на місяць:</p>
+                            <p class="text-5xl font-bold text-primary" x-text="calculateTotal() + ' грн'"></p>
+                            <p class="text-textMain/60 mt-2 text-sm">*Точну вартість уточнюйте у консультанта</p>
+                        </div>
+                        <a href="#contact" class="block w-full bg-primary text-white text-center py-4 rounded-lg text-xl font-semibold hover:bg-accent transition-colors">
+                            Отримати консультацію
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weekly Planner Table -->
+        <section class="py-20 bg-neutral">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Приклад тижневого планувальника</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Пропонуємо орієнтовний розклад занять на тиждень. Ви можете адаптувати його
+                        відповідно до ваших можливостей та бажань.
+                    </p>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full bg-white rounded-xl shadow-lg overflow-hidden">
+                        <thead class="bg-primary text-white">
+                            <tr>
+                                <th class="py-4 px-6 text-left text-lg">День</th>
+                                <th class="py-4 px-6 text-left text-lg">Ранок</th>
+                                <th class="py-4 px-6 text-left text-lg">День</th>
+                                <th class="py-4 px-6 text-left text-lg">Вечір</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-textMain">
+                            <tr class="border-b border-secondary">
+                                <td class="py-4 px-6 font-semibold">Понеділок</td>
+                                <td class="py-4 px-6">Дихальні вправи (15 хв)</td>
+                                <td class="py-4 px-6">Прогулянка на свіжому повітрі</td>
+                                <td class="py-4 px-6">Розслаблююча йога</td>
+                            </tr>
+                            <tr class="border-b border-secondary bg-neutral/50">
+                                <td class="py-4 px-6 font-semibold">Вівторок</td>
+                                <td class="py-4 px-6">Легка розминка</td>
+                                <td class="py-4 px-6">Групове заняття йогою</td>
+                                <td class="py-4 px-6">Медитація (20 хв)</td>
+                            </tr>
+                            <tr class="border-b border-secondary">
+                                <td class="py-4 px-6 font-semibold">Середа</td>
+                                <td class="py-4 px-6">Дихальні практики</td>
+                                <td class="py-4 px-6">Відпочинок або садівництво</td>
+                                <td class="py-4 px-6">Легкі розтяжки</td>
+                            </tr>
+                            <tr class="border-b border-secondary bg-neutral/50">
+                                <td class="py-4 px-6 font-semibold">Четвер</td>
+                                <td class="py-4 px-6">Ранкова йога</td>
+                                <td class="py-4 px-6">Прогулянка у парку</td>
+                                <td class="py-4 px-6">Релаксація</td>
+                            </tr>
+                            <tr class="border-b border-secondary">
+                                <td class="py-4 px-6 font-semibold">П'ятниця</td>
+                                <td class="py-4 px-6">Дихальні вправи</td>
+                                <td class="py-4 px-6">Групове заняття</td>
+                                <td class="py-4 px-6">Вечірня медитація</td>
+                            </tr>
+                            <tr class="border-b border-secondary bg-neutral/50">
+                                <td class="py-4 px-6 font-semibold">Субота</td>
+                                <td class="py-4 px-6">Спокійний ранок</td>
+                                <td class="py-4 px-6">Екотерапія на природі</td>
+                                <td class="py-4 px-6">Вільний час</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 font-semibold">Неділя</td>
+                                <td class="py-4 px-6">Легка йога</td>
+                                <td class="py-4 px-6">Відпочинок</td>
+                                <td class="py-4 px-6">Підготовка до тижня</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-center text-textMain/70 mt-6">
+                    Перед початком будь-якої фізичної активності рекомендуємо проконсультуватися з лікарем.
+                </p>
+            </div>
+        </section>
+
+        <!-- Tips Cards Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Корисні поради</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Практичні рекомендації для покращення якості життя та підтримки здоров'я.
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <article class="bg-neutral rounded-xl p-6 shadow-lg">
+                        <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67zM11.71 19c-1.78 0-3.22-1.4-3.22-3.14 0-1.62 1.05-2.76 2.81-3.12 1.77-.36 3.6-1.21 4.62-2.58.39 1.29.59 2.65.59 4.04 0 2.65-2.15 4.8-4.8 4.8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-textMain mb-3">Дихальні вправи</h3>
+                        <p class="text-textMain/80">
+                            Почніть день з 5-10 хвилин глибокого дихання. Сядьте зручно, закрийте очі та
+                            повільно вдихайте через ніс, затримуйте дихання на кілька секунд та видихайте
+                            через рот. Це допоможе заспокоїти нервову систему.
+                        </p>
+                    </article>
+                    <article class="bg-neutral rounded-xl p-6 shadow-lg">
+                        <div class="w-14 h-14 bg-accent rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M13.127 14.56l1.43-1.43 6.44 6.443L19.57 21zm.295-2.127l5.59-5.59c.78-.78.78-2.047 0-2.827l-1.414-1.414c-.78-.78-2.047-.78-2.827 0l-5.59 5.59 4.24 4.24zM2.545 19.515l5.59-5.59 4.24 4.24-5.59 5.59-4.24-4.24z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-textMain mb-3">Прогулянки на природі</h3>
+                        <p class="text-textMain/80">
+                            Регулярні прогулянки на свіжому повітрі покращують настрій та загальне самопочуття.
+                            Намагайтеся гуляти щодня хоча б 20-30 хвилин, обираючи парки або зелені зони
+                            поблизу вашого дому.
+                        </p>
+                    </article>
+                    <article class="bg-neutral rounded-xl p-6 shadow-lg">
+                        <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-textMain mb-3">Садівництво як терапія</h3>
+                        <p class="text-textMain/80">
+                            Робота з рослинами заспокоює та дарує відчуття гармонії з природою. Навіть
+                            догляд за кімнатними рослинами може стати прекрасним способом релаксації
+                            та медитативної практики.
+                        </p>
+                    </article>
+                    <article class="bg-neutral rounded-xl p-6 shadow-lg">
+                        <div class="w-14 h-14 bg-accent rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-textMain mb-3">Легкі вправи вдома</h3>
+                        <p class="text-textMain/80">
+                            Виконуйте прості вправи на розтягування кожного ранку. Повільні обертання
+                            головою, плечима та тулубом допоможуть підготувати тіло до активного дня
+                            та покращити кровообіг.
+                        </p>
+                    </article>
+                    <article class="bg-neutral rounded-xl p-6 shadow-lg">
+                        <div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-textMain mb-3">Позитивний настрій</h3>
+                        <p class="text-textMain/80">
+                            Починайте кожен день з позитивної думки або афірмації. Ведіть щоденник
+                            вдячності, записуючи три речі, за які ви вдячні сьогодні. Це допоможе
+                            зберігати оптимістичний погляд на життя.
+                        </p>
+                    </article>
+                    <article class="bg-neutral rounded-xl p-6 shadow-lg">
+                        <div class="w-14 h-14 bg-accent rounded-full flex items-center justify-center mb-4">
+                            <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M8.1 13.34l2.83-2.83L3.91 3.5c-1.56 1.56-1.56 4.09 0 5.66l4.19 4.18zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87l1.41 1.41L12 14.41l6.88 6.88 1.41-1.41L13.41 13l1.47-1.47z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-textMain mb-3">Екотерапія</h3>
+                        <p class="text-textMain/80">
+                            Проводьте час на природі: в парку, лісі або біля водойми. Контакт з природою
+                            знижує рівень стресу, покращує настрій та допомагає відновити внутрішню
+                            рівновагу та енергію.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 bg-neutral">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-textMain mb-4">Часті запитання</h2>
+                    <p class="text-xl text-textMain/80 max-w-3xl mx-auto">
+                        Відповіді на найпоширеніші запитання про наші програми та заняття.
+                    </p>
+                </div>
+                <div class="max-w-3xl mx-auto space-y-4">
+                    <details class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <summary class="p-6 cursor-pointer font-semibold text-xl text-textMain hover:bg-secondary/20 transition-colors">
+                            Чи потрібен попередній досвід йоги?
+                        </summary>
+                        <div class="p-6 pt-0 text-textMain/80">
+                            <p>Ні, попередній досвід не потрібен. Наші програми спеціально розроблені для початківців
+                            та людей без досвіду йоги. Інструктори терпляче пояснюють кожну вправу та допомагають
+                            освоїти базові техніки. Ми рухаємося у комфортному для кожного учасника темпі.</p>
+                        </div>
+                    </details>
+                    <details class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <summary class="p-6 cursor-pointer font-semibold text-xl text-textMain hover:bg-secondary/20 transition-colors">
+                            Що потрібно мати для занять?
+                        </summary>
+                        <div class="p-6 pt-0 text-textMain/80">
+                            <p>Для занять вам знадобиться зручний одяг, який не сковує рухи. Килимки для йоги
+                            надаються у нашому центрі. За бажанням можете принести власний килимок та пляшку
+                            з водою. Рекомендуємо не їсти важку їжу за 2 години до заняття.</p>
+                        </div>
+                    </details>
+                    <details class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <summary class="p-6 cursor-pointer font-semibold text-xl text-textMain hover:bg-secondary/20 transition-colors">
+                            Як часто рекомендується відвідувати заняття?
+                        </summary>
+                        <div class="p-6 pt-0 text-textMain/80">
+                            <p>Для досягнення помітних результатів рекомендуємо відвідувати заняття 2-3 рази на тиждень.
+                            Однак навіть одне заняття на тиждень може принести користь. Важливо знайти свій комфортний
+                            ритм та дотримуватися регулярності. Перед початком занять проконсультуйтеся з вашим лікарем.</p>
+                        </div>
+                    </details>
+                    <details class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <summary class="p-6 cursor-pointer font-semibold text-xl text-textMain hover:bg-secondary/20 transition-colors">
+                            Чи можна отримати пробне заняття?
+                        </summary>
+                        <div class="p-6 pt-0 text-textMain/80">
+                            <p>Так, ми пропонуємо можливість відвідати одне пробне заняття, щоб ви могли ознайомитися
+                            з нашим підходом та атмосферою. Для запису на пробне заняття залиште заявку через форму
+                            на нашому сайті або зверніться до наших консультантів.</p>
+                        </div>
+                    </details>
+                    <details class="bg-white rounded-xl shadow-lg overflow-hidden">
+                        <summary class="p-6 cursor-pointer font-semibold text-xl text-textMain hover:bg-secondary/20 transition-colors">
+                            Чи є індивідуальні заняття?
+                        </summary>
+                        <div class="p-6 pt-0 text-textMain/80">
+                            <p>Так, ми пропонуємо індивідуальні заняття для тих, хто надає перевагу персональному підходу.
+                            Індивідуальні заняття дозволяють інструктору повністю зосередитися на ваших потребах та
+                            розробити персоналізовану програму. Вартість та графік індивідуальних занять уточнюйте у консультанта.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-textMain text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <a href="index.html" class="text-2xl font-bold text-primary mb-4 block">PureGuide House</a>
+                    <p class="text-white/80 leading-relaxed">
+                        Ваш провідник у світ здоров'я та гармонії. Спеціалізовані програми йоги
+                        для людей зрілого віку.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Навігація</h3>
+                    <nav class="flex flex-col gap-2">
+                        <a href="index.html" class="text-white/80 hover:text-primary transition-colors text-left">Головна</a>
+                        <a href="policy.html" class="text-white/80 hover:text-primary transition-colors text-left">Політика конфіденційності</a>
+                        <a href="terms.html" class="text-white/80 hover:text-primary transition-colors text-left">Умови використання</a>
+                        <a href="cookies.html" class="text-white/80 hover:text-primary transition-colors text-left">Політика Cookie</a>
+                    </nav>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Швидкі посилання</h3>
+                    <nav class="flex flex-col gap-2">
+                        <a href="#about" class="text-white/80 hover:text-primary transition-colors text-left">Про нас</a>
+                        <a href="#pricing" class="text-white/80 hover:text-primary transition-colors text-left">Тарифи</a>
+                        <a href="#contact" class="text-white/80 hover:text-primary transition-colors text-left">Контакти</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="border-t border-white/20 pt-8">
+                <div class="bg-white/10 rounded-xl p-6 mb-6">
+                    <h4 class="font-bold mb-3 text-primary">Відмова від відповідальності</h4>
+                    <p class="text-white/70 text-sm leading-relaxed">
+                        Інформація, представлена на цьому веб-сайті, призначена виключно для загальних освітніх
+                        та інформаційних цілей. Вона не є медичною порадою та не замінює консультацію
+                        кваліфікованого медичного фахівця. Перед початком будь-якої програми фізичних вправ,
+                        включаючи йогу, рекомендуємо проконсультуватися з вашим лікарем, особливо якщо у вас є
+                        хронічні захворювання або обмеження щодо фізичної активності. Результати занять можуть
+                        відрізнятися залежно від індивідуальних особливостей організму. Адміністрація сайту не
+                        несе відповідальності за будь-які наслідки, що виникли внаслідок використання інформації
+                        з цього веб-сайту без попередньої консультації з медичним фахівцем.
+                    </p>
+                </div>
+                <p class="text-center text-white/60">
+                    &copy; 2025 PureGuide House. Всі права захищені.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Modal -->
+    <div x-data="{ showCookie: true }" x-show="showCookie" x-cloak
+        class="fixed bottom-4 right-4 max-w-sm bg-white rounded-xl shadow-2xl p-6 z-50 border-2 border-secondary">
+        <h3 class="text-xl font-bold text-textMain mb-3">Використання Cookie</h3>
+        <p class="text-textMain/80 mb-4 text-base">
+            Ми використовуємо файли cookie для покращення роботи сайту та вашого досвіду користування.
+            Продовжуючи використовувати сайт, ви погоджуєтесь з нашою
+            <a href="cookies.html" class="text-primary hover:underline">Політикою Cookie</a>.
+        </p>
+        <div class="flex gap-3">
+            <button @click="showCookie = false"
+                class="flex-1 bg-primary text-white py-3 rounded-lg font-semibold hover:bg-accent transition-colors">
+                Прийняти
+            </button>
+            <button @click="showCookie = false"
+                class="flex-1 bg-secondary text-textMain py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors">
+                Відхилити
+            </button>
+        </div>
+    </div>
+
+    <script>
+        function calculator() {
+            return {
+                ageGroup: '60-70',
+                sessions: 8,
+                individual: 0,
+                calculateTotal() {
+                    let basePrice = 0;
+                    if (this.ageGroup === '50-60') basePrice = 150;
+                    else if (this.ageGroup === '60-70') basePrice = 125;
+                    else basePrice = 100;
+
+                    const groupCost = this.sessions * basePrice;
+                    const individualCost = this.individual * 500;
+                    return groupCost + individualCost;
+                }
+            }
+        }
+    </script>
+    <style>
+        [x-cloak] { display: none !important; }
+    </style>
+</body>
+</html>
